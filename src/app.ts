@@ -1,7 +1,4 @@
-import "module-alias/register";
-import "source-map-support/register";
 import express, { Express } from "express";
-import "reflect-metadata";
 import { PORT } from "./config/env-vars";
 
 class Server {
